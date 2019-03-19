@@ -1,0 +1,30 @@
+{
+	"name": "vue-project-resumption",
+	"version": "1.0.0",
+	"description": "The vue project source code is designed to learn the feature implementation in Vue, such as: two-way data binding, component development.",
+	"scripts": {
+		"build": "./node_modules/.bin/rollup -w -c ./rollup.config.js",
+		"build-min": "./node_modules/.bin/rollup -w -c ./rollup.config.js  --environment TARGET:min"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SilenceHVK/vue-project-resumption.git"
+	},
+	"author": "Silence HVK",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SilenceHVK/vue-project-resumption/issues"
+	},
+	"homepage": "https://github.com/SilenceHVK/vue-project-resumption#readme",
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-plugin-external-helpers": "^6.22.0",
+		"babel-preset-latest": "^6.24.1",
+		"eslint": "^4.19.0",
+		"rollup": "^0.57.1",
+		"rollup-plugin-babel": "^3.0.3",
+		"rollup-plugin-commonjs": "^9.1.0",
+		"rollup-plugin-eslint": "^4.0.0",
+		"rollup-plugin-uglify": "^3.0.0"
+	}
+}
